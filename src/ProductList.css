@@ -47,6 +47,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+.product-grid h1 {
+    color: #4CAF50;
+    justify-items: center;
+    text-decoration-thickness: 4px;
+    text-decoration: underline ;
+    margin-top: 20px;
+}
 .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +90,7 @@ body {
 
 .product-title {
     font-weight: bold;
+    font-size: 1.6rem;
     margin-bottom: 10px;
 }
 
@@ -93,7 +101,8 @@ body {
 
 .product-price {
     color: #e74c3c;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
@@ -165,6 +174,9 @@ body {
     width: 650px;
     font-size: 19px;
 }
+.luxury img {
+    margin-right: 20px;
+}
 .cart{
     color: white;
     display: flex;
@@ -217,7 +229,7 @@ body {
   }
   
   .product-button:hover {
-    background-color: #45a049;
+    background-color: #027d08;
   }
   
   .product-button.added-to-cart {
