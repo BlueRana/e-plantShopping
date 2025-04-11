@@ -40,6 +40,7 @@ body {
 }
 
 /* Product Grid */
+
 .product-grid {
     display:flex;
     flex-direction: column;
@@ -48,12 +49,15 @@ body {
     justify-content: center;
 }
 .product-grid h1 {
+    display:flex;
     color: #4CAF50;
-    justify-items: center;
-    margin-top: 20px;
-    text-decoration-line: overline underline;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    text-decoration: overline underline;
+    text-decoration-style: solid;
     text-decoration-color: #4CAF50;  
-    text-decoration-thickness: 5px;  
+    text-decoration-thickness: 3px;  
 }
 .product-list {
     display: flex;
@@ -61,7 +65,7 @@ body {
     gap: 50px;
     /* background-color: pink; */
     /* justify-content: space-between; */
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
     width: 100%;
     align-items: center;
     justify-content: center;

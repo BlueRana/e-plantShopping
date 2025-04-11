@@ -294,8 +294,8 @@ function ProductList({ onHomeClick }) {
                         <img src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png" alt="" />
                         <a href="/" onClick={(e) => handleHomeClick(e)}>
                             <div>
-                                <h3 style={{ color: 'white' }}>Paradise Nursery</h3>
-                                <i style={{ color: 'white' }}>Where Green Meets Serenity</i>
+                                <h3 style={{ color: 'white' }}>Nature's Oasis</h3>
+                                <i style={{ color: 'white' }}>Creating a Green Paradise</i>
                             </div>
                         </a>
                     </div>
@@ -316,7 +316,8 @@ function ProductList({ onHomeClick }) {
                 <div className="product-grid">
                         {plantsArray.map((category, index) => (
                         <div key={index}>
-                            <h1><div className='solid'>{category.category}</div></h1>
+                            {/* Changed order so h1 was in a div AND added h1 to CSS*/}
+                            <div><h1>{category.category}</h1></div>
                             <div className="product-list">
                                 {category.plants.map((plant, plantIndex) => (
                                 <div className="product-card" key={plantIndex}>

@@ -16,7 +16,7 @@ function AboutUs() {
       {/* <p className="plant_logo_left"><img src="https://p1.hiclipart.com/preview/922/979/640/green-leaf-logo-emoji-seedling-emoticon-sticker-plant-plant-stem-flower-png-clipart-thumbnail.jpg" height='50px' width='50px' alt="" /></p> */}
       <p className="about-us-content">
        Whether you're a seasoned gardener or just starting out, our friendly and experienced staff is dedicated to 
-       assisting you in selecting the ideal plants for your specific needs Our team of experts is dedicated to ensuring 
+       assisting you in selecting the ideal plants for your specific needs. Our team of experts is dedicated to ensuring 
        that each plant meets our strict standards of quality and care. 
       </p>
       {/* <p className="plant_logo_right"><img src="https://p1.hiclipart.com/preview/922/979/640/green-leaf-logo-emoji-seedling-emoticon-sticker-plant-plant-stem-flower-png-clipart-thumbnail.jpg" height='50px' width='50px' alt="" /></p> */}
