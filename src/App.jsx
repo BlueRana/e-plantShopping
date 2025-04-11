@@ -22,12 +22,12 @@ function App() {
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
-         <h1>Welcome To Agrarian Nursery</h1>
+         <h1>Welcome To Nature's Oasis</h1>
           <div className="divider"></div>
-          <p>Where Green Meets Serenity</p>
+          <p>Creating A Green Paradise</p>
          
           <button className="get-started-button" onClick={handleGetStartedClick}>
-            Get Started
+            Get Planting
           </button>
          </div>
           <div className="aboutus_container">

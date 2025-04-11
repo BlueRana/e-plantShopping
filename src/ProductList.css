@@ -50,9 +50,10 @@ body {
 .product-grid h1 {
     color: #4CAF50;
     justify-items: center;
-    text-decoration-thickness: 4px;
-    text-decoration: underline ;
     margin-top: 20px;
+    text-decoration-line: overline underline;
+    text-decoration-color: #4CAF50;  
+    text-decoration-thickness: 5px;  
 }
 .product-list {
     display: flex;
